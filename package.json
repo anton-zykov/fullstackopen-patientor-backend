@@ -1,0 +1,33 @@
+{
+  "name": "fullstackopen-patientor-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev index.ts",
+    "lint": "eslint --ext .ts .",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anton-zykov/fullstackopen-patientor-backend.git"
+  },
+  "author": "Anton Zykov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anton-zykov/fullstackopen-patientor-backend/issues"
+  },
+  "homepage": "https://github.com/anton-zykov/fullstackopen-patientor-backend#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "eslint": "^8.57.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
